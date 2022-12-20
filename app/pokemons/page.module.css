@@ -1,0 +1,33 @@
+.containerA {
+  padDing: 80px;
+}
+
+.buttonsWrapper {
+  display:flex;
+  width:100%;
+  margin-top: 32px;
+  justify-content: space-evenly;
+}
+
+.pokemonBtn {
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: #fff;
+  border-color: #b448ee;
+}
+
+.pokemonBtn:hover {
+  color: #fff;
+  background: #dfc5ee;
+  border-color: #b448ee;
+}
+
+.title, 
+.pokemonImg {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemonImg {
+ margin-top: 16px;
+}
