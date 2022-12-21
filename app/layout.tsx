@@ -1,4 +1,3 @@
-import styles from "./page.module.css";
 
 export default function RootLayout({
   children,
@@ -11,7 +10,9 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
+      <head> 
+        <title>Self learning</title>
+      </head>
       <body>{children}</body>
     </html>
   )

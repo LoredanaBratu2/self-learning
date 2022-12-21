@@ -22,7 +22,8 @@
   border-color: #b448ee;
 }
 
-.title, 
+.title,
+.loading, 
 .pokemonImg {
   display: flex;
   justify-content: center;
@@ -30,4 +31,10 @@
 
 .pokemonImg {
  margin-top: 16px;
+}
+
+.loading {
+  color:#b448ee;
+  font-size: 16px;
+  margin-top: 50px;
 }
